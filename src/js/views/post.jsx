@@ -1,12 +1,12 @@
 import React from 'react';
 
+import '../../styles/blog.css';
+
 export class Post extends React.Component {
     
     render() {
         return (
-            <div className="card col-lg-4">
-            
-            </div>
+            <h2>Post</h2>
         );
     }
 } 
